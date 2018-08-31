@@ -67,7 +67,7 @@ public class AvatarGenerator {
 
     public Avatar_ getRandomAvatar(String theme){
         List<Avatar_> themedav = getAvatars(theme);
-        return themedav.get(random.nextInt(size));
+        return themedav.get(random.nextInt(themedav.size()));
 
     }
 

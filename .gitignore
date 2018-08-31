@@ -4,3 +4,5 @@ names/\.idea/workspace\.xml
 names/\.idea/
 
 names/target/
+
+*.class
