@@ -77,25 +77,25 @@
 <body>
 <h1>Team name</h1>
 <label class="container">
-    <p th:text="'Generated: ' + ${team_name1} + '!'"></p>
+    <p th:text="'Option 1: ' + ${team_name1} + '!'"></p>
     <input type="radio" checked="checked" name="radio">
     <span class="checkmark">
     </span>
 </label>
 <label class="container">
-    <p th:text="'Generated: ' + ${team_name2} + '!'"></p>
+    <p th:text="'Option 2: ' + ${team_name2} + '!'"></p>
     <input type="radio" checked="checked" name="radio">
     <span class="checkmark">
     </span>
 </label>
 <label class="container">
-    <p th:text="'Generated: ' + ${team_name3} + '!'"></p>
+    <p th:text="'Option 3: ' + ${team_name3} + '!'"></p>
     <input type="radio" checked="checked" name="radio">
     <span class="checkmark">
     </span>
 </label><br>
 
-<img th:src="${avatar.url}">
+<p class="container" th:text="'Your project name is: ' + ${project_name} + '!'"></p>
 <a href="/project">Continue</a>
 </body>
 </html>

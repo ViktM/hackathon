@@ -59,16 +59,7 @@ public class NamesGeneratorController {
         model.addAttribute("team_name1", rn.next());
         model.addAttribute("team_name2", rn.next());
         model.addAttribute("team_name3", rn.next());
-
+        model.addAttribute("project_name", rn.next());
         return "gen";
     }
-
-    @RequestMapping("/app/avatar/{theme}")
-    public String appAvatarThemed(@PathVariable(required = false, value="theme") String theme, Model model) {
-        AvatarGenerator ag = new AvatarGenerator();
-        model.addAttribute("avatar", ag.getRandomAvatar(theme));
-
-        return "randomavatar";
-    }
-
 }
