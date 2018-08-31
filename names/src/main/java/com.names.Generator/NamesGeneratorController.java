@@ -29,4 +29,11 @@ public class NamesGeneratorController {
         return "app";
     }
 
+    @GetMapping("/test")
+    public String test(){
+        return "test";
+    }
+
+
+
 }
