@@ -6,9 +6,9 @@
 </head>
 <body>
 
-<ul th:each="avatar : ${avatars}">
-    <li th:text="${avatar.name}"></li>
+<th:block th:each="avatar : ${avatars}">
+    <p th:text="${avatar.name}"></p>
     <img th:src="${avatar.url}"/>
-</ul>
+</th:block>
 </body>
 </html>
