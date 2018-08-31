@@ -1,0 +1,734 @@
+{
+    "avatars": [
+        {
+            "name": "Moon",
+            "theme": "Galaxies",
+            "url": "/Avatars/Moon.jpg"
+        },
+        {
+            "name": "Sun",
+            "theme": "Galaxies",
+            "url": "/Avatars/Sun.jpg"
+        },
+        {
+            "name": "Earth",
+            "theme": "Galaxies",
+            "url": "/Avatars/Earth.jpg"
+        },
+        {
+            "name": "Star",
+            "theme": "Galaxies",
+            "url": "/Avatars/Star.jpg"
+        },
+        {
+            "name": "Mercury",
+            "theme": "Galaxies",
+            "url": "/Avatars/Mercury.jpeg"
+        },
+        {
+            "name": "Venus",
+            "theme": "Galaxies",
+            "url": "/Avatars/Venus.jpg"
+        },
+        {
+            "name": "Mars",
+            "theme": "Galaxies",
+            "url": "/Avatars/Mars.jpg"
+        },
+        {
+            "name": "Jupiter",
+            "theme": "Galaxies",
+            "url": "/Avatars/Jupiter.jpg"
+        },
+        {
+            "name": "Saturn",
+            "theme": "Galaxies",
+            "url": "/Avatars/Saturn.jpg"
+        },
+        {
+            "name": "Neptune",
+            "theme": "Galaxies",
+            "url": "/Avatars/Neptune.jpg"
+        },
+        {
+            "name": "Uranus",
+            "theme": "Galaxies",
+            "url": "/Avatars/Uranus.jpg"
+        },
+        {
+            "name": "Pluto",
+            "theme": "Galaxies",
+            "url": "/Avatars/Pluto.jpeg"
+        },
+        {
+            "name": "Asteroid",
+            "theme": "Galaxies",
+            "url": "/Avatars/Asteroid.jpeg"
+        },
+        {
+            "name": "Nebula",
+            "theme": "Galaxies",
+            "url": "/Avatars/Nebula.jpg"
+        },
+        {
+            "name": "Supernova",
+            "theme": "Galaxies",
+            "url": "/Avatars/Supernova.jpg"
+        },
+        {
+            "name": "Pikachu",
+            "theme": "Pokemon",
+            "url": "/Avatars/Pikachu.png"
+        },
+        {
+            "name": "Charizard",
+            "theme": "Pokemon",
+            "url": "/Avatars/Charizard.png"
+        },
+        {
+            "name": "MewTwo",
+            "theme": "Pokemon",
+            "url": "/Avatars/MewTwo.jpg"
+        },
+        {
+            "name": "Mew",
+            "theme": "Pokemon",
+            "url": "/Avatars/Mew.jpg"
+        },
+        {
+            "name": "Misty",
+            "theme": "Pokemon",
+            "url": "/Avatars/Misty.jpg"
+        },
+        {
+            "name": "Ash",
+            "theme": "Pokemon",
+            "url": "/Avatars/Ash.png"
+        },
+        {
+            "name": "Arceus",
+            "theme": "Pokemon",
+            "url": "/Avatars/Arceus.png"
+        },
+        {
+            "name": "Brock",
+            "theme": "Pokemon",
+            "url": "/Avatars/Brock.png"
+        },
+        {
+            "name": "Red",
+            "theme": "Pokemon",
+            "url": "/Avatars/Red.jpg"
+        },
+        {
+            "name": "Eevee",
+            "theme": "Pokemon",
+            "url": "/Avatars/Eevee.jpg"
+        },
+        {
+            "name": "Magikarp",
+            "theme": "Pokemon",
+            "url": "/Avatars/Magikarp.png"
+        },
+        {
+            "name": "Bulbasaur",
+            "theme": "Pokemon",
+            "url": "/Avatars/Bulbasaur.png"
+        },
+        {
+            "name": "Dragonite",
+            "theme": "Pokemon",
+            "url": "/Avatars/Dragonite.jpg"
+        },
+        {
+            "name": "Lapras",
+            "theme": "Pokemon",
+            "url": "/Avatars/Lapras.jpg"
+        },
+        {
+            "name": "Mudkip",
+            "theme": "Pokemon",
+            "url": "/Avatars/Mudkip.jpg"
+        },
+        {
+            "name": "Squirtle",
+            "theme": "Pokemon",
+            "url": "/Avatars/Squirtle.png"
+        },
+        {
+            "name": "Charmander",
+            "theme": "Pokemon",
+            "url": "/Avatars/Charmander.png"
+        },
+        {
+            "name": "Gary",
+            "theme": "Pokemon",
+            "url": "/Avatars/Gary.jpg"
+        },
+        {
+            "name": "Articuno",
+            "theme": "Pokemon",
+            "url": "/Avatars/Articuno.jpg"
+        },
+        {
+            "name": "Ditto",
+            "theme": "Pokemon",
+            "url": "/Avatars/Ditto.png"
+        },
+        {
+            "name": "Slowpoke",
+            "theme": "Pokemon",
+            "url": "/Avatars/Slowpoke.jpg"
+        },
+        {
+            "name": "Mario",
+            "theme": "Mario Bros",
+            "url": "/Avatars/Mario.png"
+        },
+        {
+            "name": "Luigi",
+            "theme": "Mario Bros",
+            "url": "/Avatars/Luigi.png"
+        },
+        {
+            "name": "Peach",
+            "theme": "Mario Bros",
+            "url": "/Avatars/Peach.png"
+        },
+        {
+            "name": "Toad",
+            "theme": "Mario Bros",
+            "url": "/Avatars/Toad.jpg"
+        },
+        {
+            "name": "Yoshi",
+            "theme": "Mario Bros",
+            "url": "/Avatars/Yoshi.jpg"
+        },
+        {
+            "name": "Daisy",
+            "theme": "Mario Bros",
+            "url": "/Avatars/Daisy.jpg"
+        },
+        {
+            "name": "Donkey Kong",
+            "theme": "Mario Bros",
+            "url": "/Avatars/DonkeyKong.png"
+        },
+        {
+            "name": "Wario",
+            "theme": "Mario Bros",
+            "url": "/Avatars/Wario.jpg"
+        },
+        {
+            "name": "Waluigi",
+            "theme": "Mario Bros",
+            "url": "/Avatars/Waluigi.png"
+        },
+        {
+            "name": "Bowser",
+            "theme": "Mario Bros",
+            "url": "/Avatars/Bowser.png"
+        },
+        {
+            "name": "Bowser Jr",
+            "theme": "Mario Bros",
+            "url": "/Avatars/BowserJr.png"
+        },
+        {
+            "name": "Thor",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Thor.jpg"
+        },
+        {
+            "name": "Odin",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Odin.jpg"
+        },
+        {
+            "name": "Eir",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Eir.png"
+        },
+        {
+            "name": "Freyja",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Freyja.jpg"
+        },
+        {
+            "name": "Freyr",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Freyr.jpg"
+        },
+        {
+            "name": "Heimdall",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Heimdall.jpg"
+        },
+        {
+            "name": "Loki",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Loki.jpg"
+        },
+        {
+            "name": "Aegir",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Aegir.jpg"
+        },
+        {
+            "name": "Balder",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Balder.jpg"
+        },
+        {
+            "name": "Bor",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Bor.jpg"
+        },
+        {
+            "name": "Forseti",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Forseti.jpg"
+        },
+        {
+            "name": "Hel",
+            "theme": "Norse Mythology",
+            "url": "/Avatars/Hel.jpg"
+        },
+        {
+            "name": "Thor",
+            "theme": "Superheroes",
+            "url": "/Avatars/Thor.png"
+        },
+        {
+            "name": "Iron Man",
+            "theme": "Superheroes",
+            "url": "/Avatars/IronMan.png"
+        },
+        {
+            "name": "Spiderman",
+            "theme": "Superheroes",
+            "url": "/Avatars/Spiderman.jpg"
+        },
+        {
+            "name": "Black Widow",
+            "theme": "Superheroes",
+            "url": "/Avatars/BlackWidow.png"
+        },
+        {
+            "name": "Hulk",
+            "theme": "Superheroes",
+            "url": "/Avatars/Hulk.png"
+        },
+        {
+            "name": "Captain America",
+            "theme": "Superheroes",
+            "url": "/Avatars/CaptainAmerica.png"
+        },
+        {
+            "name": "Dr Strange",
+            "theme": "Superheroes",
+            "url": "/Avatars/DrStrange.png"
+        },
+        {
+            "name": "Black Panther",
+            "theme": "Superheroes",
+            "url": "/Avatars/BlackPanther.jpg"
+        },
+        {
+            "name": "Falcon",
+            "theme": "Superheroes",
+            "url": "/Avatars/Falcon.png"
+        },
+        {
+            "name": "Groot",
+            "theme": "Superheroes",
+            "url": "/Avatars/Groot.jpeg"
+        },
+        {
+            "name": "Gamora",
+            "theme": "Superheroes",
+            "url": "/Avatars/Gamora.png"
+        },
+        {
+            "name": "Rocket",
+            "theme": "Superheroes",
+            "url": "/Avatars/Rocket.png"
+        },
+        {
+            "name": "Star Lord",
+            "theme": "Superheroes",
+            "url": "/Avatars/StarLord.png"
+        },
+        {
+            "name": "Superman",
+            "theme": "Superheroes",
+            "url": "/Avatars/Superman.jpg"
+        },
+        {
+            "name": "Batman",
+            "theme": "Superheroes",
+            "url": "/Avatars/Batman.jpg"
+        },
+        {
+            "name": "Wonder Woman",
+            "theme": "Superheroes",
+            "url": "/Avatars/WonderWoman.jpg"
+        },
+        {
+            "name": "Green Lantern",
+            "theme": "Superheroes",
+            "url": "/Avatars/GreenLantern.jpg"
+        },
+        {
+            "name": "Green Arrow",
+            "theme": "Superheroes",
+            "url": "/Avatars/GreenArrow.png"
+        },
+        {
+            "name": "Flash",
+            "theme": "Superheroes",
+            "url": "/Avatars/Flash.jpg"
+        },
+        {
+            "name": "Aquaman",
+            "theme": "Superheroes",
+            "url": "/Avatars/Aquaman.jpeg"
+        },
+        {
+            "name": "Fry",
+            "theme": "Futurama",
+            "url": "/Avatars/Fry.jpg"
+        },
+        {
+            "name": "Leela",
+            "theme": "Futurama",
+            "url": "/Avatars/Leela.jpg"
+        },
+        {
+            "name": "Bender",
+            "theme": "Futurama",
+            "url": "/Avatars/Bender.png"
+        },
+        {
+            "name": "The Professor",
+            "theme": "Futurama",
+            "url": "/Avatars/Professor.jpg"
+        },
+        {
+            "name": "Zoidberg",
+            "theme": "Futurama",
+            "url": "/Avatars/Zoidberg.jpg"
+        },
+        {
+            "name": "Amy Wong",
+            "theme": "Futurama",
+            "url": "/Avatars/AmyWong.jpg"
+        },
+        {
+            "name": "Hermes",
+            "theme": "Futurama",
+            "url": "/Avatars/Hermes.png"
+        },
+        {
+            "name": "Zap Brannigan",
+            "theme": "Futurama",
+            "url": "/Avatars/Zapp.jpeg"
+        },
+        {
+            "name": "Kif",
+            "theme": "Futurama",
+            "url": "/Avatars/KifKroker.png"
+        },
+        {
+            "name": "Mom",
+            "theme": "Futurama",
+            "url": "/Avatars/Mom.jpg"
+        },
+        {
+            "name": "Nibbler",
+            "theme": "Futurama",
+            "url": "/Avatars/Nibbler.jpg"
+        },
+        {
+            "name": "Finn",
+            "theme": "Adventure Time",
+            "url": "/Avatars/Finn.png"
+        },
+        {
+            "name": "Jake",
+            "theme": "Adventure Time",
+            "url": "/Avatars/Jake.png"
+        },
+        {
+            "name": "Ice King",
+            "theme": "Adventure Time",
+            "url": "/Avatars/IceKing.png"
+        },
+        {
+            "name": "Princess Bubblegum",
+            "theme": "Adventure Time",
+            "url": "/Avatars/PrincessBubblegum.jpg"
+        },
+        {
+            "name": "Marceline",
+            "theme": "Adventure Time",
+            "url": "/Avatars/Marceline.png"
+        },
+        {
+            "name": "Gunter",
+            "theme": "Adventure Time",
+            "url": "/Avatars/gunter.jpg"
+        },
+        {
+            "name": "Lumpy Space Princess",
+            "theme": "Adventure Time",
+            "url": "/Avatars/lsp.jpg"
+        },
+        {
+            "name": "Bmo",
+            "theme": "Adventure Time",
+            "url": "/Avatars/bmo.jpg"
+        },
+        {
+            "name": "Peppermint Butler",
+            "theme": "Adventure Time",
+            "url": "/Avatars/peppermint.jpg"
+        },
+        {
+            "name": "Lady Rainicorn",
+            "theme": "Adventure Time",
+            "url": "/Avatars/Lady_Rainicorn.jpg"
+        },
+        {
+            "name": "Flame Princess",
+            "theme": "Adventure Time",
+            "url": "/Avatars/flame_princess.jpg"
+        },
+        {
+            "name": "Daenerys",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/Daenerys.jpg"
+        },
+        {
+            "name": "Jon Snow",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/JonSnow.jpg"
+        },
+        {
+            "name": "Gregor",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/GregorClegane.jpg"
+        },
+        {
+            "name": "Cersei",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/CerseiLannister.jpg"
+        },
+        {
+            "name": "Tyrion",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/TyrionLannister.jpg"
+        },
+        {
+            "name": "Arya",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/AryaStark.jpg"
+        },
+        {
+            "name": "Sansa",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/SansarStark.jpg"
+        },
+        {
+            "name": "Khal Drogo",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/KhalDrogo.jpeg"
+        },
+        {
+            "name": "Joffrey",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/JoffreyBaratheon.jpg"
+        },
+        {
+            "name": "Sandor",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/SandorClegane.jpg"
+        },
+        {
+            "name": "Petyr",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/PetyrBaelish.jpeg"
+        },
+        {
+            "name": "Ed",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/EddardStark.jpg"
+        },
+        {
+            "name": "Margaery",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/MargaeryTyrell.jpg"
+        },
+        {
+            "name": "Ramsay",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/RamsayBolton.jpg"
+        },
+        {
+            "name": "Ygritte",
+            "theme": "Game of Thrones",
+            "url": "/Avatars/Ygritte.jpg"
+        },
+        {
+            "name": "C3PO",
+            "theme": "Star Wars",
+            "url": "/Avatars/C-3PO.png"
+        },
+        {
+            "name": "Qui-Gon",
+            "theme": "Star Wars",
+            "url": "/Avatars/Qui-GonJinn.jpg"
+        },
+        {
+            "name": "Padme",
+            "theme": "Star Wars",
+            "url": "/Avatars/PadmeAmidala.jpeg"
+        },
+        {
+            "name": "Anakin",
+            "theme": "Star Wars",
+            "url": "/Avatars/AnakinSkywalker.jpg"
+        },
+        {
+            "name": "Jabba The Hutt",
+            "theme": "Star Wars",
+            "url": "/Avatars/Jabba.png"
+        },
+        {
+            "name": "Palpatine",
+            "theme": "Star Wars",
+            "url": "/Avatars/EmperorPalpatine.jpeg"
+        },
+        {
+            "name": "Rey",
+            "theme": "Star Wars",
+            "url": "/Avatars/Rey.jpg"
+        },
+        {
+            "name": "Obi-Wan",
+            "theme": "Star Wars",
+            "url": "/Avatars/ObiWanKenobi.jpg"
+        },
+        {
+            "name": "Kylo Ren",
+            "theme": "Star Wars",
+            "url": "/Avatars/KyloRen.jpg"
+        },
+        {
+            "name": "Yoda",
+            "theme": "Star Wars",
+            "url": "/Avatars/Yoda.png"
+        },
+        {
+            "name": "R2D2",
+            "theme": "Star Wars",
+            "url": "/Avatars/R2-D2.png"
+        },
+        {
+            "name": "Chewbacca",
+            "theme": "Star Wars",
+            "url": "/Avatars/Chewbacca.png"
+        },
+        {
+            "name": "Leia",
+            "theme": "Star Wars",
+            "url": "/Avatars/PrincessLeia.JPG"
+        },
+        {
+            "name": "Luke",
+            "theme": "Star Wars",
+            "url": "/Avatars/LukeSkywalker.jpeg"
+        },
+        {
+            "name": "Darth Vader",
+            "theme": "Star Wars",
+            "url": "/Avatars/DarthVader.jpg"
+        },
+        {
+            "name": "Darth Maul",
+            "theme": "Star Wars",
+            "url": "/Avatars/DarthMaul.png"
+        },
+        {
+            "name": "Han Solo",
+            "theme": "Star Wars",
+            "url": "/Avatars/HanSolo.png"
+        },
+        {
+            "name": "Unicorn",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Unicorn.jpg"
+        },
+        {
+            "name": "Mermaid",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Mermaid.jpg"
+        },
+        {
+            "name": "Dragon",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Dragon.jpg"
+        },
+        {
+            "name": "Fairy",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Fairy.jpg"
+        },
+        {
+            "name": "Werewolf",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Werewolf.jpg"
+        },
+        {
+            "name": "Vampire",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Vampire.jpg"
+        },
+        {
+            "name": "Centaur",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Centaur.jpg"
+        },
+        {
+            "name": "Pixie",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Pixie.jpg"
+        },
+        {
+            "name": "Gnome",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Gnome.jpg"
+        },
+        {
+            "name": "Yeti",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Yeti.jpg"
+        },
+        {
+            "name": "Sphinx",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Sphinx.png"
+        },
+        {
+            "name": "Leprechaun",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Leprechaun.jpg"
+        },
+        {
+            "name": "Phoenix",
+            "theme": "Mythical Creatures",
+            "url": "/Avatars/Phoenix.jpg"
+        }
+    ]
+}
