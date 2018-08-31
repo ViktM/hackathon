@@ -58,7 +58,7 @@ public class NamesGeneratorController {
         model.addAttribute("team_name1", rn.next());
         model.addAttribute("team_name2", rn.next());
         model.addAttribute("team_name3", rn.next());
-        return "app";
+        return "gen";
     }
 
 }

@@ -56,11 +56,23 @@ public class Dictionary {
             if (theme.equals("creatures")){
                 load("creatures.txt", nouns);
             }
-            if (theme.equals("com/names")) {
+            if (theme.equals("firstnames")) {
                 load("firstnames.txt", nouns);
             }
             if (theme.equals("starwars")) {
                 load("starwars.txt", nouns);
+            }
+            if (theme.equals("galaxies")) {
+                load("galaxies.txt", nouns);
+            }
+            if (theme.equals("mario")) {
+                load("mario.txt", nouns);
+            }
+            if (theme.equals("got")) {
+                load("got.txt", nouns);
+            }
+            if (theme.equals("superheroes")) {
+                load("superheroes.txt", nouns);
             }
 
 
