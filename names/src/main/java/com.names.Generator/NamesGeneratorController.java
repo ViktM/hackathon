@@ -52,7 +52,6 @@ public class NamesGeneratorController {
     @RequestMapping("/app/{theme}")
     public String appThemed(@PathVariable(required = false, value="theme") String theme, Model model) {
         RandomNameGenerator rn = new RandomNameGenerator(theme);
-        AvatarGenerator ag = new AvatarGenerator();
 
         for (int i = 0; i < 3; i++){
             System.out.println(rn.next());
@@ -61,9 +60,15 @@ public class NamesGeneratorController {
         model.addAttribute("team_name2", rn.next());
         model.addAttribute("team_name3", rn.next());
 
+        return "gen";
+    }
+
+    @RequestMapping("/app/avatar/{theme}")
+    public String appAvatarThemed(@PathVariable(required = false, value="theme") String theme, Model model) {
+        AvatarGenerator ag = new AvatarGenerator();
         model.addAttribute("avatar", ag.getRandomAvatar(theme));
 
-        return "gen";
+        return "randomavatar";
     }
 
 }
