@@ -62,4 +62,11 @@ public class NamesGeneratorController {
         model.addAttribute("project_name", rn.next());
         return "gen";
     }
+    @RequestMapping("/app/avatar/{theme}")
+    public String appAvatarThemed(@PathVariable(required = false, value="theme") String theme, Model model) {
+        AvatarGenerator ag = new AvatarGenerator();
+        model.addAttribute("avatar", ag.getRandomAvatar(theme));
+
+        return "randomavatar";
+    }
 }
