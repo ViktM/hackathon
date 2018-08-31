@@ -96,13 +96,28 @@
 </label><br>
 
 <p class="container" th:text="'Your project name is: ' + ${project_name} + '!'"></p>
+<br/>
+<br/>
+
+
+<p class="container">How many avatars do you need?</p>
+<form class="container">
+    <select id="avatars">
+        <option value="1" selected>1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+    </select>
+</form>
+
 <button onclick="goToPage()">Click</button>
 
 <script type="text/javascript">
     function goToPage() {
-
-
-        window.location = window.location.href + "/avatar";
+        window.location = window.location.href + "/avatar/" + document.getElementById('avatars').value;
     }
 </script>
 </body>
