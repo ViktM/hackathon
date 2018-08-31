@@ -3,12 +3,12 @@
         {
             "name": "Moon",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Moon.jpg"
         },
         {
             "name": "Sun",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Sun.jpg"
         },
         {
             "name": "Earth",
@@ -18,47 +18,47 @@
         {
             "name": "Star",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Star.jpg"
         },
         {
             "name": "Mercury",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Mercury.jpeg"
         },
         {
             "name": "Venus",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Venus.jpg"
         },
         {
             "name": "Mars",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Mars.jpg"
         },
         {
             "name": "Jupiter",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Jupiter.jpg"
         },
         {
             "name": "Saturn",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Saturn.jpg"
         },
         {
             "name": "Neptune",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Neptune.jpg"
         },
         {
             "name": "Uranus",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Uranus.jpg"
         },
         {
             "name": "Pluto",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Pluto.jpeg"
         },
         {
             "name": "Asteroid",
@@ -68,17 +68,17 @@
         {
             "name": "Nebula",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Nebula.jpg"
         },
         {
             "name": "Supernova",
             "theme": "Galaxies",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Supernova.jpg"
         },
         {
             "name": "Pikachu",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Pikachu.png"
         },
         {
             "name": "Charizard",
@@ -88,17 +88,17 @@
         {
             "name": "MewTwo",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/MewTwo.jpg"
         },
         {
             "name": "Mew",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Mew.jpg"
         },
         {
             "name": "Misty",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Misty.jpg"
         },
         {
             "name": "Ash",
@@ -118,17 +118,17 @@
         {
             "name": "Red",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Red.jpg"
         },
         {
             "name": "Eevee",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Eevee.jpg"
         },
         {
             "name": "Magikarp",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Magikarp.png"
         },
         {
             "name": "Bulbasaur",
@@ -143,17 +143,17 @@
         {
             "name": "Lapras",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Lapras.jpg"
         },
         {
             "name": "Mudkip",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Mudkip.jpg"
         },
         {
             "name": "Squirtle",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Squirtle.png"
         },
         {
             "name": "Charmander",
@@ -163,7 +163,7 @@
         {
             "name": "Gary",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Gary.jpg"
         },
         {
             "name": "Articuno",
@@ -178,32 +178,32 @@
         {
             "name": "Slowpoke",
             "theme": "Pokemon",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Slowpoke.jpg"
         },
         {
             "name": "Mario",
             "theme": "Mario Bros",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Mario.png"
         },
         {
             "name": "Luigi",
             "theme": "Mario Bros",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Luigi.png"
         },
         {
             "name": "Peach",
             "theme": "Mario Bros",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Peach.png"
         },
         {
             "name": "Toad",
             "theme": "Mario Bros",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Toad.jpg"
         },
         {
             "name": "Yoshi",
             "theme": "Mario Bros",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Yoshi.jpg"
         },
         {
             "name": "Daisy",
@@ -218,12 +218,12 @@
         {
             "name": "Wario",
             "theme": "Mario Bros",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Wario.jpg"
         },
         {
             "name": "Waluigi",
             "theme": "Mario Bros",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Waluigi.png"
         },
         {
             "name": "Bowser",
@@ -238,37 +238,37 @@
         {
             "name": "Thor",
             "theme": "Norse Mythology",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Thor.jpg"
         },
         {
             "name": "Odin",
             "theme": "Norse Mythology",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Odin.jpg"
         },
         {
             "name": "Eir",
             "theme": "Norse Mythology",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Eir.png"
         },
         {
             "name": "Freyja",
             "theme": "Norse Mythology",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Freyja.jpg"
         },
         {
             "name": "Freyr",
             "theme": "Norse Mythology",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Freyr.jpg"
         },
         {
             "name": "Heimdall",
             "theme": "Norse Mythology",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Heimdall.jpg"
         },
         {
             "name": "Loki",
             "theme": "Norse Mythology",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Loki.jpg"
         },
         {
             "name": "Aegir",
@@ -288,32 +288,27 @@
         {
             "name": "Forseti",
             "theme": "Norse Mythology",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Forseti.jpg"
         },
         {
             "name": "Hel",
             "theme": "Norse Mythology",
-            "url": "/Avatars/Aegir.jpg"
-        },
-        {
-            "name": "Kvasir",
-            "theme": "Norse Mythology",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Hel.jpg"
         },
         {
             "name": "Thor",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Thor.png"
         },
         {
             "name": "Iron Man",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/IronMan.png"
         },
         {
             "name": "Spiderman",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Spiderman.jpg"
         },
         {
             "name": "Black Widow",
@@ -323,7 +318,7 @@
         {
             "name": "Hulk",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Hulk.png"
         },
         {
             "name": "Captain America",
@@ -343,32 +338,32 @@
         {
             "name": "Falcon",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Falcon.png"
         },
         {
             "name": "Groot",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Groot.jpeg"
         },
         {
             "name": "Gamora",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Gamora.png"
         },
         {
             "name": "Rocket",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Rocket.png"
         },
         {
             "name": "Star Lord",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/StarLord.png"
         },
         {
             "name": "Superman",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Superman.jpg"
         },
         {
             "name": "Batman",
@@ -378,22 +373,22 @@
         {
             "name": "Wonder Woman",
             "theme": "Superheroes",
-            "url": "/Avatars/Batman.jpg"
+            "url": "/Avatars/WonderWoman.jpg"
         },
         {
             "name": "Green Lantern",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/GreenLantern.jpg"
         },
         {
             "name": "Green Arrow",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/GreenArrow.png"
         },
         {
             "name": "Flash",
             "theme": "Superheroes",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Flash.jpg"
         },
         {
             "name": "Aquaman",
@@ -403,12 +398,12 @@
         {
             "name": "Fry",
             "theme": "Futurama",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Fry.jpg"
         },
         {
             "name": "Leela",
             "theme": "Futurama",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Leela.jpg"
         },
         {
             "name": "Bender",
@@ -418,12 +413,12 @@
         {
             "name": "The Professor",
             "theme": "Futurama",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Professor.jpg"
         },
         {
             "name": "Zoidberg",
             "theme": "Futurama",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Zoidberg.jpg"
         },
         {
             "name": "Amy Wong",
@@ -433,82 +428,82 @@
         {
             "name": "Hermes",
             "theme": "Futurama",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Hermes.png"
         },
         {
             "name": "Zap Brannigan",
             "theme": "Futurama",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Zapp.jpeg"
         },
         {
             "name": "Kif",
             "theme": "Futurama",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/KifKroker.png"
         },
         {
             "name": "Mom",
             "theme": "Futurama",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Mom.jpg"
         },
         {
             "name": "Nibbler",
             "theme": "Futurama",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Nibbler.jpg"
         },
         {
             "name": "Finn",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Finn.png"
         },
         {
             "name": "Jake",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Jake.png"
         },
         {
             "name": "Ice King",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/IceKing.png"
         },
         {
             "name": "Princess Bubblegum",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/PrincessBubblegum.jpg"
         },
         {
             "name": "Marceline",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Marceline.png"
         },
         {
             "name": "Gunter",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/gunter.jpg"
         },
         {
             "name": "Lumpy Space Princess",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/lsp.jpg"
         },
         {
             "name": "Bmo",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/bmo.jpg"
         },
         {
             "name": "Peppermint Butler",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/peppermint.jpg"
         },
         {
             "name": "Lady Rainicorn",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Lady_Rainicorn.jpg"
         },
         {
             "name": "Flame Princess",
             "theme": "Adventure Time",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/flame_princess.jpg"
         },
         {
             "name": "Daenerys",
@@ -518,12 +513,12 @@
         {
             "name": "Jon Snow",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/JonSnow.jpg"
         },
         {
             "name": "Gregor",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/GregorClegane.jpg"
         },
         {
             "name": "Cersei",
@@ -533,7 +528,7 @@
         {
             "name": "Tyrion",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/TyrionLannister.jpg"
         },
         {
             "name": "Arya",
@@ -543,27 +538,27 @@
         {
             "name": "Sansa",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/SansarStark.jpg"
         },
         {
             "name": "Khal Drogo",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/KhalDrogo.jpeg"
         },
         {
             "name": "Joffrey",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/JoffreyBaratheon.jpg"
         },
         {
             "name": "Sandor",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/SandorClegane.jpg"
         },
         {
             "name": "Petyr",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/PetyrBaelish.jpeg"
         },
         {
             "name": "Ed",
@@ -573,17 +568,17 @@
         {
             "name": "Margaery",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/MargaeryTyrell.jpg"
         },
         {
             "name": "Ramsay",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/RamsayBolton.jpg"
         },
         {
             "name": "Ygritte",
             "theme": "Game of Thrones",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Ygritte.jpg"
         },
         {
             "name": "C3PO",
@@ -593,12 +588,12 @@
         {
             "name": "Qui-Gon",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Qui-GonJinn.jpg"
         },
         {
             "name": "Padme",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/PadmeAmidala.jpeg"
         },
         {
             "name": "Anakin",
@@ -608,37 +603,37 @@
         {
             "name": "Jabba The Hutt",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Jabba.png"
         },
         {
             "name": "Palpatine",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/EmperorPalpatine.jpeg"
         },
         {
             "name": "Rey",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Rey.jpg"
         },
         {
             "name": "Obi-Wan",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/ObiWanKenobi.jpg"
         },
         {
             "name": "Kylo Ren",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/KyloRen.jpg"
         },
         {
             "name": "Yoda",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Yoda.png"
         },
         {
             "name": "R2D2",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/R2-D2.png"
         },
         {
             "name": "Chewbacca",
@@ -648,12 +643,12 @@
         {
             "name": "Leia",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/PrincessLeia.JPG"
         },
         {
             "name": "Luke",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/LukeSkywalker.jpeg"
         },
         {
             "name": "Darth Vader",
@@ -668,17 +663,17 @@
         {
             "name": "Han Solo",
             "theme": "Star Wars",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/HanSolo.png"
         },
         {
             "name": "Unicorn",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Unicorn.jpg"
         },
         {
             "name": "Mermaid",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Mermaid.jpg"
         },
         {
             "name": "Dragon",
@@ -688,17 +683,17 @@
         {
             "name": "Fairy",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Fairy.jpg"
         },
         {
             "name": "Werewolf",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Werewolf.jpg"
         },
         {
             "name": "Vampire",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Vampire.jpg"
         },
         {
             "name": "Centaur",
@@ -708,32 +703,32 @@
         {
             "name": "Pixie",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Pixie.jpg"
         },
         {
             "name": "Gnome",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Gnome.jpg"
         },
         {
             "name": "Yeti",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Yeti.jpg"
         },
         {
             "name": "Sphinx",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Sphinx.png"
         },
         {
             "name": "Leprechaun",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Leprechaun.jpg"
         },
         {
             "name": "Phoenix",
             "theme": "Mythical Creatures",
-            "url": "/Avatars/Aegir.jpg"
+            "url": "/Avatars/Phoenix.jpg"
         }
     ]
 }
