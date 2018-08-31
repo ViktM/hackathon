@@ -283,7 +283,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="943" />
@@ -416,7 +416,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NamesGeneratorApplication">
+  <component name="RunManager" selected="Spring Boot.NamesGeneratorApplication">
     <configuration name="NamesGeneratorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.names.Generator.NamesGeneratorApplication" />
       <module name="names" />
@@ -458,6 +458,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NamesGeneratorApplication" />
         <item itemvalue="Application.NamesGeneratorApplication" />
       </list>
     </recent_temporary>
