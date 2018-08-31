@@ -24,9 +24,16 @@ public class NamesGeneratorController {
         return "home";
     }
 
-    @GetMapping("/team")
-    public String team(){;
-        return "team";
+    @GetMapping("/app")
+    public String app(Model model){;
+        RandomNameGenerator rn = new RandomNameGenerator("pokemon");
+        for (int i = 0; i < 3; i++){
+            System.out.println(rn.next());
+        }
+        model.addAttribute("team_name1", rn.next());
+        model.addAttribute("team_name2", rn.next());
+        model.addAttribute("team_name3", rn.next());
+        return "app";
     }
 
     @GetMapping("/project")
