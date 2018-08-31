@@ -93,12 +93,19 @@ public class Dictionary {
         return prime;
     }
 
-    public String word(int i) {
-        int a = i%adjectives.size();
-        int n = i/adjectives.size();
+//    public String word(int i) {
+//        int a = i%adjectives.size();
+//        int n = i/adjectives.size();
+//
+//        return adjectives.get(a)+"_"+nouns.get(n);
+//    }
+public String word(int i) {
+//    int a = i%adjectives.size();
+    int n = i/adjectives.size();
 
-        return adjectives.get(a)+"_"+nouns.get(n);
-    }
+    return nouns.get(n);
+}
+
 
     private void load(String name, List<String> col) throws IOException {
         BufferedReader r = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(name),"US-ASCII"));
