@@ -7,6 +7,7 @@ import com.names.Generator.Avatar.Avatar_;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.List;
 
 public class AvatarGenerator {
@@ -49,15 +50,25 @@ public class AvatarGenerator {
         this.av = av;
     }
 
-    public String getAvatar(String name){
-        for (Avatar_ j : av.getAvatars()) {
-
+    public Avatar_ getAvatar(String name){
+        for (Avatar_ avatar : av.getAvatars()) {
+            if (avatar.getName().equals(name)){
+                return avatar;
+            }
         }
         return null;
     }
 
-    public String getAvatars(String theme){
-        return null;
+    public List<Avatar_> getAvatars(String theme){
+        List<Avatar_> returnedList = new ArrayList<>();
+
+        for (Avatar_ avatar : av.getAvatars()) {
+            if (avatar.getTheme().equals(theme)){
+                returnedList.add(avatar);
+            }
+        }
+
+        return returnedList;
     }
 }
 
