@@ -3,6 +3,7 @@ package com.names.Generator;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 import com.names.Generator.Avatar.Avatar;
+import com.names.Generator.Avatar.Avatar_;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -49,15 +50,14 @@ public class AvatarGenerator {
     }
 
     public String getAvatar(String name){
-        for (: av.getAvatars().
-             ) {
+        for (Avatar_ j : av.getAvatars()) {
 
         }
-
+        return null;
     }
 
     public String getAvatars(String theme){
-
+        return null;
     }
 }
 
