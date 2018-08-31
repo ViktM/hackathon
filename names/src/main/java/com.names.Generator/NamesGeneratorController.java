@@ -25,7 +25,7 @@ public class NamesGeneratorController {
     }
 
     @GetMapping("/app")
-    public String app(Model model){;
+    public String app(Model model){
         RandomNameGenerator rn = new RandomNameGenerator("pokemon");
         for (int i = 0; i < 3; i++){
             System.out.println(rn.next());
@@ -37,17 +37,17 @@ public class NamesGeneratorController {
     }
 
     @GetMapping("/project")
-    public String project(){;
+    public String project(){
         return "project";
     }
 
     @GetMapping("/avatar")
-    public String avatar(){;
+    public String avatar(){
         return "avatar";
     }
 
     @GetMapping("/result")
-    public String result(){;
+    public String result(){
         return "result";
     }
 
