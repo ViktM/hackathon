@@ -62,6 +62,18 @@ public class Dictionary {
             if (theme.equals("starwars")) {
                 load("starwars.txt", nouns);
             }
+            if (theme.equals("galaxies")) {
+                load("galaxies.txt", nouns);
+            }
+            if (theme.equals("mario")) {
+                load("mario.txt", nouns);
+            }
+            if (theme.equals("got")) {
+                load("got.txt", nouns);
+            }
+            if (theme.equals("superheroes")) {
+                load("superheroes.txt", nouns);
+            }
 
 
         } catch (IOException e) {
