@@ -1,0 +1,20 @@
+Goomba
+Koopa
+Shy Guy
+Spiny
+Piranha Plant
+Boo
+Chain Chomp
+Bob-omb
+Blooper
+Mario
+Luigi
+Peach
+Toad
+Yoshi
+Daisy
+Donkey Kong
+Wario
+Waluigi
+Bowser
+Bowser Jr
