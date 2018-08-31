@@ -24,9 +24,24 @@ public class NamesGeneratorController {
         return "home";
     }
 
-    @GetMapping("/app")
-    public String app(){;
-        return "app";
+    @GetMapping("/team")
+    public String team(){;
+        return "team";
+    }
+
+    @GetMapping("/project")
+    public String project(){;
+        return "project";
+    }
+
+    @GetMapping("/avatar")
+    public String avatar(){;
+        return "avatar";
+    }
+
+    @GetMapping("/result")
+    public String result(){;
+        return "result";
     }
 
 }
