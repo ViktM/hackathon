@@ -1,5 +1,6 @@
 package com.names.Generator;
 
+import com.names.Generator.Avatar.Avatar_;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -62,11 +63,24 @@ public class NamesGeneratorController {
         model.addAttribute("project_name", rn.next());
         return "gen";
     }
-    @RequestMapping("/app/avatar/{theme}")
+    @RequestMapping("/app/{theme}/avatar")
     public String appAvatarThemed(@PathVariable(required = false, value="theme") String theme, Model model) {
         AvatarGenerator ag = new AvatarGenerator();
         model.addAttribute("avatar", ag.getRandomAvatar(theme));
 
         return "randomavatar";
+    }
+
+    @RequestMapping("/app/{theme}/avatar/{number}")
+    public String appAvatarThemed(@PathVariable(required = false, value="theme") String theme,@PathVariable(required = false, value="number") String number,Model model) {
+        AvatarGenerator ag = new AvatarGenerator();
+        int max = Integer.parseInt(number);
+        Avatar_[] avatars = new Avatar_[max];
+        for(int i = 0; i < max; i++){
+            avatars[i] =  ag.getRandomAvatar(theme);
+        }
+        model.addAttribute("avatars", avatars);
+
+        return "randomavatars";
     }
 }
