@@ -96,7 +96,15 @@
 </label><br>
 
 <p class="container" th:text="'Your project name is: ' + ${project_name} + '!'"></p>
-<a href="/project">Continue</a>
+<button onclick="goToPage()">Click</button>
+
+<script type="text/javascript">
+    function goToPage() {
+
+
+        window.location = window.location.href + "/avatar";
+    }
+</script>
 </body>
 </html>
 
