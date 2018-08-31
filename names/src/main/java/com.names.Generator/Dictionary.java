@@ -56,7 +56,7 @@ public class Dictionary {
             if (theme.equals("creatures")){
                 load("creatures.txt", nouns);
             }
-            if (theme.equals("com/names")) {
+            if (theme.equals("firstnames")) {
                 load("firstnames.txt", nouns);
             }
             if (theme.equals("starwars")) {
