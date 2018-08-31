@@ -1,53 +1,100 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <title>Getting Started: Serving Web Content</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>Team Name Generator</title>
+<style>img#sky-logo {
+    width: 100%;
+}
+body {
+    background-color: black;
+}
+/*Title Bar style*/
+.jumbotron {
+    padding:4em 4em;
+    margin-bottom: 0px;
+    background: linear-gradient(to right, orange, red , blueviolet);
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.banner {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    width: 100%;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+
+h2 {
+    color: red;
+    font-size: 75px;
+}
+h1 {
+    color: white;
+    text-shadow: 3px 3px black;
+    font-size: 100px;
+}
+
+select {
+    font-size: 50px;
+}
+
+button {
+    font-size: 50px;
+    background-color: red;
+    text-color: black;
+    text-shadow: -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    box-shadow: 4px 4px white;
+    border-radius: 12px;
+    margin: 30px;
+}
+
+</style>
 </head>
 <body>
-<!-- <p th:text="'Hello ' + ${name} + '!'" /> -->
+<div class ="jumbotron jumbotron-fluid"><h1 class="text-center">Sky Team Name Generator</h1></div>
 
 
+<div class="container" style="text-align: center; margin-top: 50px">
+    <h2>Please pick a theme:</h2>
+    <br>
+    <form>
+        <select>
+            <option value="Galaxies">Galaxies</option>
+            <option value="Pokemon">Pokemon</option>
+            <option value="Mario Bros">Mario Bros</option>
+            <option value="Norse Mythology">Norse Mythology</option>
+            <option value="Superheroes">Superheroes</option>
+            <option value="Futurama">Futurama</option>
+            <option value="Adventure Time">Adventure Time</option>
+            <option value="Game of Thrones">Game of Thrones</option>
+            <option value="Star Wars">Star Wars</option>
+            <option value="Mythical Characters">Mythical Characters</option>
+        </select>
 
-<h1>Welcome to the NameGenerator</h1>
-<h2>Please pick a theme:</h2>
 
-
-
-<form>
-    <select id="value">
-
-        <option value="egyptian">Egyptian Gods</option>
-        <option value="greekromannorse">Greek Roman Norse Gods</option>
-        <option value="pokemon">Pokemon</option>
-        <option value="creatures">Creatures</option>
-        <option value="starwars">Star Wars</option>
-
-
-
-        <option value="Pokemon">Pokemon</option>
-        <option value="Mario Bros">Mario Bros</option>
-        <option value="Norse Mythology">Norse Mythology</option>
-        <option value="Superheroes">Superheroes</option>
-        <option value="Futurama">Futurama</option>
-        <option value="Adventure Time">Adventure Time</option>
-        <option value="Game of Thrones">Game of Thrones</option>
-        <option value="Star Wars">Star Wars</option>
-        <option value="Mythical Characters">Mythical Characters</option>
-    </select>
-
-    <input type="button" value="Continue" onclick="goToPage()"/>
-
-</form>
-
-<script type="text/javascript">
-    function goToPage() {
-        var value = document.getElementById('value').value;
-        var index = value.selectedIndex;
-
-        window.location = "http://localhost:8080/app/" + value;
-    }
-</script>
+    </form>
+    <br>
+    <button>Continue</button>
 
 
 <!--<a href="/app">go to app</a>-->
