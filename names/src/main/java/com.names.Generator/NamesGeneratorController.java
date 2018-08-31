@@ -34,6 +34,21 @@ public class NamesGeneratorController {
         return "app";
     }
 
+    @GetMapping("/project")
+    public String project(){
+        return "project";
+    }
+
+    @GetMapping("/avatar")
+    public String avatar(){
+        return "avatar";
+    }
+
+    @GetMapping("/result")
+    public String result(){
+        return "result";
+    }
+
     @RequestMapping("/app/{theme}")
     public String appThemed(@PathVariable(required = false, value="theme") String theme, Model model) {
         RandomNameGenerator rn = new RandomNameGenerator(theme);
