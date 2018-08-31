@@ -1,12 +1,78 @@
 
-
-
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Team</title>
-    <style>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+        <title>Team Name Generator</title>
+        <style>img#sky-logo {
+            width: 100%;
+        }
+        body {
+            background-color: black;
+        }
+        /*Title Bar style*/
+        .jumbotron {
+            padding:4em 4em;
+            margin-bottom: 0px;
+            background: linear-gradient(to right, orange, red , blueviolet);
+            border-radius: 0px;
+            overflow: hidden;
+        }
+
+        .banner {
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            bottom: auto;
+            right: auto;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -ms-transform: translateX(-50%) translateY(-50%);
+            -o-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+            text-align: center;
+            width: 100%;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+        }
+
+
+        h2 {
+            color: red;
+            font-size: 75px;
+        }
+        h1 {
+            color: white;
+            text-shadow: 3px 3px black;
+            font-size: 100px;
+        }
+
+        select {
+            font-size: 50px;
+        }
+
+        button {
+            font-size: 50px;
+            background-color: red;
+            text-color: black;
+            text-shadow: -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px 1px 0 white,
+            1px 1px 0 white;
+            box-shadow: 4px 4px white;
+            border-radius: 12px;
+            margin: 30px;
+        }
 
         /* The container */
         .container {
@@ -27,6 +93,7 @@
             position: absolute;
             opacity: 0;
             cursor: pointer;
+
         }
 
         /* Create a custom radio button */
@@ -47,7 +114,7 @@
 
         /* When the radio button is checked, add a blue background */
         .container input:checked ~ .checkmark {
-            background-color: #2196F3;
+            background-color: red;
         }
 
         /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -72,54 +139,66 @@
             background: white;
         }
 
-    </style>
-</head>
+            p {
+
+                color: white;
+            }
+
+
+
+        </style>
+
+
 <body>
-<h1>Team name</h1>
-<label class="container">
-    <p th:text="'Option 1: ' + ${team_name1} + '!'"></p>
-    <input type="radio" checked="checked" name="radio">
-    <span class="checkmark">
+<div class ="jumbotron jumbotron-fluid"><h1 class="text-center">Choose Your Team Name</h1></div>
+
+
+<div class="container" style="text-align: center; margin-top: 50px">
+
+    <label class="container">
+        <h2 th:text="'Option one: ' + ${team_name1} + '!'"></h2>
+
+
     </span>
-</label>
-<label class="container">
-    <p th:text="'Option 2: ' + ${team_name2} + '!'"></p>
-    <input type="radio" checked="checked" name="radio">
-    <span class="checkmark">
+    </label>
+    <label class="container">
+        <h2 th:text="'Option two: ' + ${team_name2} + '!'"></h2>
+
+
     </span>
-</label>
-<label class="container">
-    <p th:text="'Option 3: ' + ${team_name3} + '!'"></p>
-    <input type="radio" checked="checked" name="radio">
-    <span class="checkmark">
+    </label>
+    <label class="container">
+        <h2 th:text="'Option three: ' + ${team_name3} + '!'"></h2>
+
+
     </span>
-</label><br>
+    </label><br>
 
-<p class="container" th:text="'Your project name is: ' + ${project_name} + '!'"></p>
-<br/>
-<br/>
+    <p class="container" th:text="'Your project name is: ' + ${project_name} + '!'"></p>
+    <br/>
+    <br/>
 
 
-<p class="container">How many avatars do you need?</p>
-<form class="container">
-    <select id="avatars">
-        <option value="1" selected>1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-    </select>
-</form>
+    <p class="container">How many avatars do you need?</p>
+    <form class="container">
+        <select id="avatars">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select>
+    </form>
 
-<button onclick="goToPage()">Click</button>
+    <button onclick="goToPage()">Click</button>
 
-<script type="text/javascript">
-    function goToPage() {
-        window.location = window.location.href + "/avatar/" + document.getElementById('avatars').value;
-    }
-</script>
+    <script type="text/javascript">
+        function goToPage() {
+            window.location = window.location.href + "/avatar/" + document.getElementById('avatars').value;
+        }
+    </script>
 </body>
 </html>
 
