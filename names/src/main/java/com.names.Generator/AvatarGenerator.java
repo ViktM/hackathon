@@ -9,10 +9,13 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class AvatarGenerator {
 
     Avatar av;
+    Random random;
+    int size;
 
     public AvatarGenerator(){
         String f = "";
@@ -25,6 +28,9 @@ public class AvatarGenerator {
         Gson g = new Gson();
         this.av = g.fromJson(f, Avatar.class);
         System.out.println(av.getAvatars().get(0).getName());
+        this.size = av.getAvatars().size();
+//        this.seed = (int) System.currentTimeMillis();
+         random = new Random();
 
     }
 
@@ -57,6 +63,12 @@ public class AvatarGenerator {
             }
         }
         return null;
+    }
+
+    public Avatar_ getRandomAvatar(String theme){
+        List<Avatar_> themedav = getAvatars(theme);
+        return themedav.get(random.nextInt(size));
+
     }
 
     public List<Avatar_> getAvatars(String theme){
