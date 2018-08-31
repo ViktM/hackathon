@@ -7,11 +7,15 @@ import com.names.Generator.Avatar.Avatar_;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class AvatarGenerator {
 
     Avatar av;
+    Random random;
+    int size;
 
     public AvatarGenerator(){
         String f = "";
@@ -24,6 +28,9 @@ public class AvatarGenerator {
         Gson g = new Gson();
         this.av = g.fromJson(f, Avatar.class);
         System.out.println(av.getAvatars().get(0).getName());
+        this.size = av.getAvatars().size();
+//        this.seed = (int) System.currentTimeMillis();
+         random = new Random();
 
     }
 
@@ -49,15 +56,31 @@ public class AvatarGenerator {
         this.av = av;
     }
 
-    public String getAvatar(String name){
-        for (Avatar_ j : av.getAvatars()) {
-
+    public Avatar_ getAvatar(String name){
+        for (Avatar_ avatar : av.getAvatars()) {
+            if (avatar.getName().equals(name)){
+                return avatar;
+            }
         }
         return null;
     }
 
-    public String getAvatars(String theme){
-        return null;
+    public Avatar_ getRandomAvatar(String theme){
+        List<Avatar_> themedav = getAvatars(theme);
+        return themedav.get(random.nextInt(size));
+
+    }
+
+    public List<Avatar_> getAvatars(String theme){
+        List<Avatar_> returnedList = new ArrayList<>();
+
+        for (Avatar_ avatar : av.getAvatars()) {
+            if (avatar.getTheme().equals(theme)){
+                returnedList.add(avatar);
+            }
+        }
+
+        return returnedList;
     }
 }
 
